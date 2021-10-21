@@ -1,0 +1,32 @@
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.exe
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.deps.json
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.runtimeconfig.json
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.runtimeconfig.dev.json
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.dll
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\bin\Debug\net5.0\ref\Inlämning_2.dll
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.pdb
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.csproj.AssemblyReference.cache
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.AssemblyInfoInputs.cache
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.AssemblyInfo.cs
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.csproj.CoreCompileInputs.cache
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.dll
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\obj\Debug\net5.0\ref\Inlämning_2.dll
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.pdb
+C:\Users\x\source\repos\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.genruntimeconfig.cache
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.exe
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.deps.json
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.runtimeconfig.json
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.runtimeconfig.dev.json
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.dll
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\bin\Debug\net5.0\ref\Inlämning_2.dll
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\bin\Debug\net5.0\Inlämning_2.pdb
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.csproj.AssemblyReference.cache
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.AssemblyInfoInputs.cache
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.AssemblyInfo.cs
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.csproj.CoreCompileInputs.cache
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.dll
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\obj\Debug\net5.0\ref\Inlämning_2.dll
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.pdb
+C:\Users\x\OneDrive\Documents\Local souce\Inlämning_2\Inlämning_2\obj\Debug\net5.0\Inlämning_2.genruntimeconfig.cache
