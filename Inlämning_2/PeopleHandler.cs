@@ -176,46 +176,61 @@ namespace inlämning_2
         
 
         //-------------------------------------------------------->[Show the contact infirmation]
+
+
         public void PersonInformation()
         {
-            TryAgain:
-                Console.Write("Ange komtakt namn: ");
-                string index = Console.ReadLine();
-                var PerInformation = ph.Read(index);
-            if (PerInformation == null)
+            var PerInformation = new Person();
+            bool Tryagain = true ;
+
+            while (Tryagain) 
             {
-                Console.Write("Detta namn finns inte.\n" +
-                              "Om du vill ange kontakt namn igen, tryck [Y], annat gå tillbaka till huvud meny.");
-                string answer = Console.ReadLine().ToLower();
-                if (answer == "y")  goto TryAgain;  
-                else BackToMenu();
+                Console.Write("Ange kontakt namn: ");
+                string index = Console.ReadLine();
+                PerInformation = ph.Read(index);
+
+                if (PerInformation == null)
+                {
+                    Console.Write("Detta namn finns inte.\n" +
+                                  "Om du vill ange kontakt namn igen, tryck [Y], annat gå tillbaka till huvudmeny.");
+                    string answer = Console.ReadLine().ToLower();
+                    if (answer != "y") BackToMenu();
+                }
+                else Tryagain = false;
             }
-            
+
             Console.WriteLine("Förnamn  : " + PerInformation.Name + "\n" 
                              +"Efternamn: " + PerInformation.Lastname + " \n"
-                             + "Efternamn: " + PerInformation.Alias + " \n"
+                             + "Alias    : " + PerInformation.Alias + " \n"
                              + "ÄrBlockad: " + PerInformation.IsBlocked + " \n"
-                             + "ÄrGhostad    : " + PerInformation.IsGhosted);
+                             + "ÄrGhostad: " + PerInformation.IsGhosted);
             BackToMenu();
         }
 
         //------------------------------------------------------>[Update contact]
-        public void UpdateInformatin()        
+        public void UpdateInformatin()
         {
-            
-        TryAgain:
-            Console.Write("Ange namnet som du vill söka efter och ändra uppgifter: ");
-            string index = Console.ReadLine();
-            var PerInformation = ph.Read(index);
-            if (PerInformation == null)
-            {
-                Console.Write("Detta namn finns inte.\n" +
-                              "Om du vill söka efter namnet igen, tryck [Y], annat gå tillbaka till huvud meny.");
-                string answer = Console.ReadLine().ToLower();
-                if (answer == "y") goto TryAgain;
-               
-                else BackToMenu();
-            }
+
+            var PerInformation = new Person();
+            bool Tryagain = true;
+            string index="";
+
+            while (Tryagain) {
+                Console.Write("Ange namnet som du vill söka efter och ändra uppgifter: ");
+                index = Console.ReadLine();
+                PerInformation = ph.Read(index);
+
+
+                if (PerInformation == null)
+                {
+                    Console.Write("Detta namn finns inte.\n" +
+                                  "Om du vill söka efter namnet igen, tryck [Y], annat gå tillbaka till huvud meny.");
+                    string answer = Console.ReadLine().ToLower();
+                    if (answer != "y") BackToMenu();
+                }
+                else Tryagain = false;
+            }       
+        
 
             var NewData = new Person { Name = Askname(), Lastname = Asklastname(), Alias = Askalias() };
             ph.Update(index, NewData);
@@ -226,20 +241,29 @@ namespace inlämning_2
         //------------------------------------------------------->[Delete contakt]
         public void DeleteInformation()
         {
-        TryAgain:
-            Console.Write("Ange namnet som du vill ta bort sina uppgifter: ");
-            string index = Console.ReadLine();
-            var PerInformation = ph.Read(index);
-            if (PerInformation == null)
+            var PerInformation = new Person();
+            bool Tryagain = true;
+            string index="";
+
+            while (Tryagain)
             {
-                Console.Write("Detta namn finns inte.\n" +
-                              "Om du vill ange namnet igen, tryck [Y], annat gå tillbaka till huvud meny.");
-                string answer = Console.ReadLine().ToLower();
-                if (answer == "y") goto TryAgain;
-                else BackToMenu();
+
+                Console.Write("Ange namnet som du vill ta bort sina uppgifter: ");
+             index = Console.ReadLine();
+             PerInformation = ph.Read(index);
+
+
+                if (PerInformation == null)
+                {
+                    Console.Write("Detta namn finns inte.\n" +
+                                  "Om du vill ange namnet igen, tryck [Y], annat gå tillbaka till huvud meny.");
+                    string answer = Console.ReadLine().ToLower();
+                    if (answer != "y") BackToMenu();
+                }
+                else Tryagain = false;
             }
 
-            Console.WriteLine($"Kontakt uppgfter för [{index}] ska tas bort. Är du säker\n"
+                Console.WriteLine($"Kontakt uppgfter för [{index}] ska tas bort. Är du säker\n"
                                 + "Om du vill gå vidare tryck [Y]  annt avbryta och gå till baka till huvud meny.");
 
             string SureAnswer = Console.ReadLine().ToLower();
@@ -286,6 +310,8 @@ namespace inlämning_2
             Console.Clear();
 
 
+            
+
             switch (Number)
             {
                 case 1: TheNameList(); break;
@@ -295,7 +321,8 @@ namespace inlämning_2
                 case 5: DeleteInformation(); break;
                 case 6: IsGhostedList(); break;
                 case 7: IsBlockedList(); break;
-                default: Console.WriteLine("Välkommen åter"); break;
+                default: Console.WriteLine("Välkommen åter");
+                    Environment.Exit(0); break;
             }
         }
     }

@@ -14,7 +14,8 @@ namespace inlämning_2
 
         public void Create(Person person)
         {
-            people.Add(person);
+            if (person.Name != "")
+                people.Add(person);
         }
 
 
