@@ -14,8 +14,13 @@ namespace inlämning_2
 
         public void Create(Person person)
         {
-            if (person.Name != "")
-                people.Add(person);
+            if (string.IsNullOrEmpty(person.Name))
+                return;
+
+            // Or I can use 
+            // if (person.Name != "")
+
+            people.Add(person);
         }
 
 
